@@ -1,0 +1,16 @@
+Classification report (threshold = 0.5):
+              precision    recall  f1-score   support
+
+           0     0.8330    0.6182    0.7097     13809
+           1     0.8546    0.9477    0.8987     32686
+
+    accuracy                         0.8498     46495
+   macro avg     0.8438    0.7829    0.8042     46495
+weighted avg     0.8482    0.8498    0.8426     46495
+
+Confusion matrix:
+[[ 8537  5272]
+ [ 1711 30975]]
+TN: 8537, FP: 5272, FN: 1711, TP: 30975
+
+ROC AUC (using probabilities): 0.8916
